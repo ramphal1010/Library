@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:orientation="vertical"
+    tools:context=".About">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:gravity="center"
+      android:textColor="@color/colorPrimary"
+      android:text="M.B.M ENGINEERING COLLEGE"
+      android:layout_weight=".4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:weightSum="2"
+        android:orientation="horizontal">
+       <LinearLayout
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:weightSum="2"
+           android:layout_width="0dp">
+           <ImageView
+               android:id="@+id/rishi_image"
+               android:layout_weight="1.1"
+               android:padding="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="0dp"
+               android:scaleType="fitXY"
+               android:src="@drawable/book2">
+           </ImageView>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:text="Name"
+               android:gravity="center"
+               android:layout_weight=".3"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:text="Ecc Branch"
+               android:gravity="center"
+               android:layout_weight=".3"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:text="3rd Year"
+               android:gravity="center"
+               android:layout_weight=".3"/>
+
+
+       </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_width="0dp">
+            <ImageView
+                android:id="@+id/nik_image"
+                android:layout_weight="1.1"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/book2">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Name"
+                android:gravity="center"
+                android:layout_weight=".3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="IT Branch"
+                android:gravity="center"
+                android:layout_weight=".3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="3rd Year"
+                android:gravity="center"
+                android:layout_weight=".3"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_weight=".5">
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/instagram_icon"/>
+
+        <ImageView
+            android:id="@+id/link_din"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/linkdin_icon"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_weight=".5">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_width="0dp">
+            <TextView
+                android:id="@+id/rate_us"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:text="Review And Rate"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_width="0dp">
+            <TextView
+                android:id="@+id/privacy"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:text="Privacy Policy"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:text="Version 1.0">
+    </TextView>
+
+</LinearLayout>

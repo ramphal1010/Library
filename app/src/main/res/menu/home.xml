@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"  android:icon="@drawable/ic_home_black_24dp" android:title="Home"></item>
+        <item android:id="@+id/Upload_files" android:icon="@drawable/upload" android:title="Upload"></item>
+        <item android:id="@+id/Elective" android:icon="@drawable/ic_clear_all_black_24dp" android:title="Elective Paper"></item>
+        <item android:id="@+id/offline" android:icon="@drawable/offline_foreground" android:title="Offline"></item>
+        <item android:id="@+id/ecc_special" android:icon="@drawable/offline_foreground" android:title="Ecc Special"></item>
+
+    </group>
+    <item android:title="Do Appreciate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/about"
+                android:icon="@drawable/ic_action_name"
+                android:title="About Us"></item>
+
+        </menu>
+    </item>
+</menu>

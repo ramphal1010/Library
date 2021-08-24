@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ram">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_foreground"
+        android:label="MBM BOOKS"
+        android:roundIcon="@mipmap/launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="label">
+
+        <activity android:name=".Ecc_special" />
+        <activity
+            android:name=".Extra_section"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".About"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme1" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8008669180320697~7403578617" />
+
+        <activity
+            android:name=".Send_Mail"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".Paper.Json" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+
+        <activity
+            android:name=".filelist.PDF_Activity"
+            android:parentActivityName=".filelist.Main_Activity"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".Book.PDF_Activity" />
+        <activity
+            android:name=".Paper.Paper"
+            android:parentActivityName=".Home_Activity" />
+        <activity
+            android:name=".Syllabuss.MainActivity"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".filelist.Main_Activity"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Books_Activity"
+            android:parentActivityName=".Home_Activity" />
+        <activity
+            android:name=".Book.Book_main"
+            android:parentActivityName=".Books_Activity"
+            android:theme="@style/AppTheme1" />
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ecc3semsubjects">
+        <item>Network Theory</item>
+        <item>Mathematics</item>
+        <item>digital</item>
+       <item>electronics</item>
+    </string-array>
+
+    <string name="CS">CS</string>
+    <string name="IT">IT</string>
+    <string name="ECC">ECC</string>
+    <string name="ECE">ECE</string>
+    <string name="EEE">EEE</string>
+    <string name="CIVIL">CIVIL</string>
+    <string name="MINING">MINING</string>
+    <string name="CHEMICAL">CHEMICAL</string>
+    <string name="ELECTRICAL">ELECTRICAL</string>
+    <string name="MECHANICAL">MECHANICAL</string>
+    <string name="P_I">P AND I</string>
+
+
+
+
+
+
+
+</resources>

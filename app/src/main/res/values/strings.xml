@@ -1,0 +1,63 @@
+<resources>
+    <array name="Branch_array">
+        <item>Select Branch</item>
+        <item>CS</item>
+        <item>IT</item>
+        <item>ECC</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>CIVIL</item>
+        <item>MINING</item>
+        <item>CHEMICAL</item>
+        <item>MECHANICAL</item>
+        <item>ELECTRICAL</item>
+        <item>P_AND_I</item>
+    </array>
+    <array name="Semester_array">
+        <item>Select Semester</item>
+        <item>CIVIL SEM</item>
+        <item>MECHANICAL SEM</item>
+        <item>3sem</item>
+        <item>4sem</item>
+        <item>5sem</item>
+        <item>6sem</item>
+        <item>7sem</item>
+        <item>8sem</item>
+    </array>
+    <array name="Ist_year">
+        <item>Select Semester</item>
+        <item>civil Sem</item>
+        <item>Mechanical Sem</item>
+    </array>
+    <string name="app_name">ram</string>
+    <string name="open">Open</string>
+    <string name="loading">Loading</string>
+    <string name="close">close</string>
+    <string name="download_fail">Download Failed</string>
+    <string name="downloadAgain">Download Again</string>
+    <string name="downloading"> "Downloading....."</string>
+    <string name="book_activity">Book Library"</string>
+    <string name="paper_activity">Paper Section"</string>
+
+    <string name="upload">!!! Please !!!
+
+                  if you have some important data and files please upload here</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_test">test</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8008669180320697/5324210183</string>
+
+
+</resources>
